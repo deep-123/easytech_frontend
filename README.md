@@ -30,10 +30,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 =======Architecture best practices ==========
 
-1. Shorten your relative paths, style sheet scss configure
+1. Shorten your relative paths
 https://medium.com/dev-jam/5-tips-best-practices-to-organize-your-angular-project-e900db08702e
-
-2. core module, shared module
+2. style sheet scss configure
+https://medium.com/@manivel45/configuring-angular-7-project-with-sass-bootstrap-and-angular-material-design-69b0f033dc04
+3. routing
+https://wesleygrimes.com/angular/2019/02/24/angular-routing-best-practices-for-enterprise-applications.html
+4. core module, shared module
 https://github.com/DanWahlin/angular-architecture
 
 https://itnext.io/choosing-a-highly-scalable-folder-structure-in-angular-d987de65ec7
