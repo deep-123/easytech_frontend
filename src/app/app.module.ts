@@ -6,6 +6,7 @@ import { AppRoutes } from './app.routes';
 import { SharedModule } from '@shared/shared.module';
 import { HeaderComponent } from '@shared/layout/header/header.component';
 import { FooterComponent } from '@shared/layout/footer/footer.component';
+import { CoreModule } from '@core/core.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,7 @@ import { FooterComponent } from '@shared/layout/footer/footer.component';
   ],
   imports: [
     BrowserModule, 
-    //SharedModule,
+    CoreModule,
     RouterModule.forRoot(AppRoutes)
   ],
   providers: [],
