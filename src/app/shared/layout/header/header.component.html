@@ -1,99 +1,164 @@
-<!-- Header -->
-<header id="header">
-    <!-- Nav -->
-    <div id="nav">
-        <!-- Main Nav -->
-        <div id="nav-fixed">
-            <div class="container">
-                <!-- logo -->
-                <div class="nav-logo">
-                    <a href="index.html" class="logo"><img src="./img/logo.png" alt=""></a>
-                </div>
-                <!-- /logo -->
+<!-- pageheader
+    ================================================== -->
+<section class="s-pageheader s-pageheader--home">
+    <header class="header">
+        <div class="header__content row">
 
-                <!-- nav -->
-                <ul class="nav-menu nav navbar-nav">
-                    <li><a href="category.html">News</a></li>
-                    <li><a href="category.html">Popular</a></li>
-                    <li class="cat-1"><a href="category.html">Web Design</a></li>
-                    <li class="cat-2"><a href="category.html">JavaScript</a></li>
-                    <li class="cat-3"><a href="category.html">Css</a></li>
-                    <li class="cat-4"><a href="category.html">Jquery</a></li>
-                </ul>
-                <!-- /nav -->
+            <div class="header__logo">
+                <a class="logo" href="index.html">
+                    <img src="images/logo.svg" alt="Homepage">
+                </a>
+            </div> <!-- end header__logo -->
 
-                <!-- search & aside toggle -->
-                <div class="nav-btns">
-                    <button class="aside-btn"><i class="fa fa-bars"></i></button>
-                    <button class="search-btn"><i class="fa fa-search"></i></button>
-                    <div class="search-form">
-                        <input class="search-input" type="text" name="search" placeholder="Enter Your Search ...">
-                        <button class="search-close"><i class="fa fa-times"></i></button>
-                    </div>
-                </div>
-                <!-- /search & aside toggle -->
-            </div>
-        </div>
-        <!-- /Main Nav -->
+            <ul class="header__social">
+                <li>
+                    <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a href="#0"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                </li>
+            </ul> <!-- end header__social -->
 
-        <!-- Aside Nav -->
-        <div id="nav-aside">
-            <!-- nav -->
-            <div class="section-row">
-                <ul class="nav-aside-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="#">Join Us</a></li>
-                    <li><a href="#">Advertisement</a></li>
-                    <li><a href="contact.html">Contacts</a></li>
-                </ul>
-            </div>
-            <!-- /nav -->
+            <a class="header__search-trigger" href="#0"></a>
 
-            <!-- widget posts -->
-            <div class="section-row">
-                <h3>Recent Posts</h3>
-                <div class="post post-widget">
-                    <a class="post-img" href="blog-post.html"><img src="./img/widget-2.jpg" alt=""></a>
-                    <div class="post-body">
-                        <h3 class="post-title"><a href="blog-post.html">Pagedraw UI Builder Turns Your Website Design Mockup Into Code Automatically</a></h3>
-                    </div>
-                </div>
+            <div class="header__search">
 
-                <div class="post post-widget">
-                    <a class="post-img" href="blog-post.html"><img src="./img/widget-3.jpg" alt=""></a>
-                    <div class="post-body">
-                        <h3 class="post-title"><a href="blog-post.html">Why Node.js Is The Coolest Kid On The Backend Development Block!</a></h3>
-                    </div>
-                </div>
+                <form role="search" method="get" class="header__search-form" action="#">
+                    <label>
+                        <span class="hide-content">Search for:</span>
+                        <input type="search" class="search-field" placeholder="Type Keywords" value="" name="s"
+                            title="Search for:" autocomplete="off">
+                    </label>
+                    <input type="submit" class="search-submit" value="Search">
+                </form>
 
-                <div class="post post-widget">
-                    <a class="post-img" href="blog-post.html"><img src="./img/widget-4.jpg" alt=""></a>
-                    <div class="post-body">
-                        <h3 class="post-title"><a href="blog-post.html">Tell-A-Tool: Guide To Web Design And Development Tools</a></h3>
-                    </div>
-                </div>
-            </div>
-            <!-- /widget posts -->
+                <a href="#0" title="Close Search" class="header__overlay-close">Close</a>
 
-            <!-- social links -->
-            <div class="section-row">
-                <h3>Follow us</h3>
-                <ul class="nav-aside-social">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                </ul>
-            </div>
-            <!-- /social links -->
+            </div> <!-- end header__search -->
 
-            <!-- aside nav close -->
-            <button class="nav-aside-close"><i class="fa fa-times"></i></button>
-            <!-- /aside nav close -->
-        </div>
-        <!-- Aside Nav -->
-    </div>
-    <!-- /Nav -->
-</header>
-<!-- /Header -->
+
+            <a class="header__toggle-menu" href="#0" title="Menu"><span>Menu</span></a>
+
+            <nav class="header__nav-wrap">
+
+                <h2 class="header__nav-heading h6">Site Navigation</h2>
+
+                <ul class="header__nav">
+                    <li class="current"><a href="index.html" title="">Home</a></li>
+                    <li class="has-children">
+                        <a href="#0" title="">Categories</a>
+                        <ul class="sub-menu">
+                            <li><a href="category.html">Lifestyle</a></li>
+                            <li><a href="category.html">Health</a></li>
+                            <li><a href="category.html">Family</a></li>
+                            <li><a href="category.html">Management</a></li>
+                            <li><a href="category.html">Travel</a></li>
+                            <li><a href="category.html">Work</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-children">
+                        <a href="#0" title="">Blog</a>
+                        <ul class="sub-menu">
+                            <li><a href="single-video.html">Video Post</a></li>
+                            <li><a href="single-audio.html">Audio Post</a></li>
+                            <li><a href="single-gallery.html">Gallery Post</a></li>
+                            <li><a href="single-standard.html">Standard Post</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="style-guide.html" title="">Styles</a></li>
+                    <li><a href="about.html" title="">About</a></li>
+                    <li><a href="contact.html" title="">Contact</a></li>
+                </ul> <!-- end header__nav -->
+
+                <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Close</a>
+
+            </nav> <!-- end header__nav-wrap -->
+
+        </div> <!-- header-content -->
+    </header> <!-- header -->
+    <div class="pageheader-content row">
+        <div class="col-full">
+
+            <div class="featured">
+
+                <div class="featured__column featured__column--big">
+                    <div class="entry" style="background-image:url('../../../../assets/images/thumbs/featured/featured-guitarman.jpg');">
+
+                        <div class="entry__content">
+                            <span class="entry__category"><a href="#0">Music</a></span>
+
+                            <h1><a href="#0" title="">What Your Music Preference Says About You and Your
+                                    Personality.</a></h1>
+
+                            <div class="entry__info">
+                                <a href="#0" class="entry__profile-pic">
+                                    <img class="avatar" src="../../../../assets/images/avatars/user-03.jpg" alt="">
+                                </a>
+
+                                <ul class="entry__meta">
+                                    <li><a href="#0">John Doe</a></li>
+                                    <li>December 29, 2017</li>
+                                </ul>
+                            </div>
+                        </div> <!-- end entry__content -->
+
+                    </div> <!-- end entry -->
+                </div> <!-- end featured__big -->
+
+                <div class="featured__column featured__column--small">
+
+                    <div class="entry" style="background-image:url('../../../../assets/images/thumbs/featured/featured-watch.jpg');">
+
+                        <div class="entry__content">
+                            <span class="entry__category"><a href="#0">Management</a></span>
+
+                            <h1><a href="#0" title="">The Pomodoro Technique Really Works.</a></h1>
+
+                            <div class="entry__info">
+                                <a href="#0" class="entry__profile-pic">
+                                    <img class="avatar" src="../../../../assets/images/avatars/user-03.jpg" alt="">
+                                </a>
+
+                                <ul class="entry__meta">
+                                    <li><a href="#0">John Doe</a></li>
+                                    <li>December 27, 2017</li>
+                                </ul>
+                            </div>
+                        </div> <!-- end entry__content -->
+
+                    </div> <!-- end entry -->
+
+                    <div class="entry" style="background-image:url('../../../../assets/images/thumbs/featured/featured-beetle.jpg');">
+
+                        <div class="entry__content">
+                            <span class="entry__category"><a href="#0">LifeStyle</a></span>
+
+                            <h1><a href="#0" title="">Throwback To The Good Old Days.</a></h1>
+
+                            <div class="entry__info">
+                                <a href="#0" class="entry__profile-pic">
+                                    <img class="avatar" src="../../../../assets/images/avatars/user-03.jpg" alt="">
+                                </a>
+
+                                <ul class="entry__meta">
+                                    <li><a href="#0">John Doe</a></li>
+                                    <li>December 21, 2017</li>
+                                </ul>
+                            </div>
+                        </div> <!-- end entry__content -->
+
+                    </div> <!-- end entry -->
+
+                </div> <!-- end featured__small -->
+            </div> <!-- end featured -->
+
+        </div> <!-- end col-full -->
+    </div> <!-- end pageheader-content row -->
+
+</section> <!-- end s-pageheader -->
